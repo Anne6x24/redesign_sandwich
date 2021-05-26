@@ -11,6 +11,7 @@
 
 video {
   display: grid;
+  max-width: 100%;
 }
 
 img {
@@ -50,4 +51,45 @@ a {
 
 a:hover {
   background-color: #f5e08e;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    height: 20vw;
+    width: 30vw;
+    top: -3vw;
+    position: relative;
+  }
+
+  .menu {
+    top: -60px;
+    position: relative;
+  }
+
+  .box {
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    top: -7vw;
+    left: 22vw;
+    background: #e7f1fc;
+    border: 1px solid black;
+    width: 30vw;
+    height: 40vw;
+    padding: 20px;
+    margin: 50px;
+  }
+
+  a {
+    display: grid;
+    text-decoration: none;
+    font-family: Amatic SC;
+    font-size: 20px;
+    color: black;
+    justify-content: center;
+  }
+
+  a:hover {
+    background-color: #f5e08e;
+  }
 }
