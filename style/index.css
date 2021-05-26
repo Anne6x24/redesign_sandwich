@@ -1,0 +1,8 @@
+.btn_group {
+  display: block;
+  background-color: #e7f1fc;
+  border: 3px solid #c85955;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 50%;
+}
