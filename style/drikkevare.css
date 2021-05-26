@@ -2,6 +2,33 @@ body {
     background-color: #FCEDD9;
 }
 
+.section_wrapper {
+    background-color: #EFBE78;
+    margin: 80px auto;
+    max-width: 1000px;
+}
+
+.kasse_1 {
+    background-color: #E7F1FC;
+    margin: 65px auto;
+    max-width: 700px;
+    border-radius: 25px;
+}
+
+.kasse_2 {
+    background-color: #E7F1FC;
+    margin: 65px auto;
+    max-width: 700px;
+    border-radius: 25px;
+}
+
+.kasse_3 {
+    background-color: #E7F1FC;
+    margin: 65px auto;
+    max-width: 700px;
+    border-radius: 25px;
+}
+
 
 /* //--top navigaion--// */
 .topnav {
@@ -59,11 +86,17 @@ img {
     position: relative;
     height: 30vw;
     width: 40vw;
-    top: -5vw;
-    left: 26vw;
+    top: -4vw;
+    left: 16vw;
 }
 
 /* //--Drikkevare menu--// */
+
+h1 {
+    font-family: Shadows Into Light Two;
+    font-size: 50px;
+    text-align: center;
+}
 
 h3 {
     font-family: Shadows Into Light Two;
