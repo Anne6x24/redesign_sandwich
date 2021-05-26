@@ -36,7 +36,7 @@ img {
   top: 4vw;
   left: 29vw;
   background: #e7f1fc;
-  border: 1px solid black;
+  border: 2px solid black;
   width: 30vw;
   height: 40vw;
   padding: 20px;
@@ -109,7 +109,7 @@ a:hover {
     top: -7vw;
     left: 22vw;
     background: #e7f1fc;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 30vw;
     height: 40vw;
     padding: 20px;
