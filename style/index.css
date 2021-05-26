@@ -1,31 +1,27 @@
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+#section_one {
+  position: relative;
 }
 
-.indhold {
-  position: fixed;
-  top: 50vw;
-  left: 50vw;
+#section_one video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
+
+video {
+  display: grid;
+}
+
+.box {
+  position: absolute;
+  display: grid;
+  justify-content: center;
+  top: 4vw;
+  left: 29vw;
   background: #e7f1fc;
-  width: 100%;
-  padding: 50px 50px;
-}
-
-#knap {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: goldenrod;
-  cursor: pointer;
-}
-
-#knap:hover {
-  background: rgb(139, 54, 54);
-  color: black;
+  width: 30vw;
+  height: 40vw;
+  padding: 20px;
+  margin: 50px;
 }
