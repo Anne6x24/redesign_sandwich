@@ -1,3 +1,5 @@
+/* //--video--// */
+
 #section_one {
   position: relative;
 }
@@ -13,6 +15,7 @@ video {
   display: grid;
   max-width: 100%;
 }
+/* //--Menu navigaion--// */
 
 img {
   height: 20vw;
@@ -82,6 +85,8 @@ a:hover {
 .bottomnav_right {
   float: right;
 }
+
+/* //-- Mobile first--// */
 
 @media screen and (max-width: 600px) {
   img {
