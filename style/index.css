@@ -57,7 +57,7 @@ a:hover {
 }
 
 /* //--footer navigaion--// */
-
+/* 
 .bottomnav {
   border: 1px solid black;
   overflow: hidden;
@@ -84,7 +84,7 @@ a:hover {
 
 .bottomnav_right {
   float: right;
-}
+} */
 
 /* //-- Mobile first--// */
 
@@ -131,7 +131,7 @@ a:hover {
 
   /* //--footer navigaion--// */
 
-  .bottomnav {
+  /* .bottomnav {
     border: 1px solid black;
     overflow: hidden;
     position: relative;
@@ -157,5 +157,5 @@ a:hover {
 
   .bottomnav_right {
     float: right;
-  }
+  } */
 }

@@ -1,0 +1,32 @@
+body {
+  background-color: #f7f1d9;
+}
+
+.section_wrapper {
+  position: absolute;
+  display: grid;
+  justify-content: center;
+  top: 4vw;
+  left: 29vw;
+  background: #e7f1fc;
+  border: 2px solid black;
+  width: 30vw;
+  height: 40vw;
+  padding: 20px;
+  margin: 50px;
+  background-color: #f5e08e;
+}
+
+a {
+  display: grid;
+  text-decoration: none;
+  font-family: Amatic SC;
+  font-size: 3rem;
+  color: black;
+  justify-content: center;
+  background-color: white;
+}
+
+#section_one a:hover {
+  background-color: #f5e08e;
+}
