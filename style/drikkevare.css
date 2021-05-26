@@ -60,6 +60,20 @@ img {
     height: 30vw;
     width: 40vw;
     top: -5vw;
-    left: 26,5vw;
+    left: 26vw;
+}
+
+/* //--Drikkevare menu--// */
+
+h3 {
+    font-family: Shadows Into Light Two;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-family: Courier New;
+    font-size: 15px;
+    text-align: center;
 }
 
