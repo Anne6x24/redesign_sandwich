@@ -13,6 +13,18 @@ video {
   display: grid;
 }
 
+img {
+  height: 20vw;
+  width: 30vw;
+  top: -3vw;
+  position: relative;
+}
+
+.menu {
+  top: -96px;
+  position: relative;
+}
+
 .box {
   position: absolute;
   display: grid;
@@ -20,8 +32,22 @@ video {
   top: 4vw;
   left: 29vw;
   background: #e7f1fc;
+  border: 1px solid black;
   width: 30vw;
   height: 40vw;
   padding: 20px;
   margin: 50px;
+}
+
+a {
+  display: grid;
+  text-decoration: none;
+  font-family: Amatic SC;
+  font-size: 50px;
+  color: black;
+  justify-content: center;
+}
+
+a:hover {
+  background-color: #f5e08e;
 }
