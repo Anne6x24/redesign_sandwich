@@ -6,27 +6,32 @@ body {
   position: absolute;
   display: grid;
   justify-content: center;
-  top: 4vw;
-  left: 29vw;
-  background: #e7f1fc;
-  border: 2px solid black;
-  width: 30vw;
-  height: 40vw;
-  padding: 20px;
-  margin: 50px;
+  top: 7vw;
+  left: 22vw;
+  /* border: 2px solid black; */
+  width: 50vw;
+  height: 30vw;
+  padding: 3vw;
   background-color: #f5e08e;
+  box-shadow: 0px 0px 10px #ad9f66;
 }
 
-a {
+h1 {
+  font-size: 2.5em;
+}
+
+#section_one a {
   display: grid;
+  justify-content: center;
   text-decoration: none;
   font-family: Amatic SC;
-  font-size: 3rem;
+  font-size: 2em;
   color: black;
-  justify-content: center;
   background-color: white;
+  box-shadow: 0px 0px 10px #ad9f66;
 }
 
 #section_one a:hover {
-  background-color: #f5e08e;
+  background-color: black;
+  color: white;
 }
