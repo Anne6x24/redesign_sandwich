@@ -35,3 +35,29 @@ h1 {
   background-color: black;
   color: white;
 }
+
+/*Header og footer*/
+#navigation,
+#footer {
+  font-family: Courier New;
+  font-size: 1.02em;
+  border: 1px solid black;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+}
+
+.nav_right {
+  display: flex;
+  gap: 3vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
