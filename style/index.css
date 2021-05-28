@@ -10,15 +10,9 @@ video {
 }
 /* //--Menu navigaion--// */
 
-img {
-  height: 20vw;
-  width: 30vw;
-  top: -3vw;
-  position: relative;
-}
-
 .menu {
-  top: -96px;
+  top: -25px;
+  left: 4px;
   position: relative;
 }
 
