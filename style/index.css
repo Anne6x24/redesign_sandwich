@@ -90,7 +90,7 @@ img {
     margin: 50px;
   }
 
-  a {
+  .menu a {
     display: grid;
     text-decoration: none;
     font-family: Amatic SC;
@@ -99,7 +99,7 @@ img {
     justify-content: center;
   }
 
-  a:hover {
+  .menu a:hover {
     background-color: #f5e08e;
   }
 }
