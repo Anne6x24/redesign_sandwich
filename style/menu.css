@@ -4,12 +4,8 @@ body {
 
 #section_one {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 8fr 1fr;
   margin-top: 4vw;
-  /* justify-content: space-evenly;
-  justify-items: center;
-  align-content: space-evenly;
-  align-items: center; */
 }
 
 .section_wrapper {
@@ -17,8 +13,6 @@ body {
   justify-content: center;
   background-color: #f5e08e;
   box-shadow: 0px 0px 10px #ad9f66;
-  /* margin: 5vw 10vw 5vw 10vw; */
-  /* padding: 4vw; */
   width: 100%;
 }
 
@@ -45,6 +39,9 @@ body {
 }
 
 @media (min-width: 960px) {
+  #section_one {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
   .section_wrapper {
     padding-top: 2vw;
     padding-bottom: 2vw;
