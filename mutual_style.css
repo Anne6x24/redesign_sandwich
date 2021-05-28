@@ -1,7 +1,7 @@
-html {
+/* html {
   display: grid;
   grid-template-columns: 1fr minmax(0, 1200px) 1fr;
-}
+} */
 
 /*Header og footer*/
 #navigation,
