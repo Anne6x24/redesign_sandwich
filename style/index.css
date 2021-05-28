@@ -56,10 +56,9 @@ img {
 }
 
 .menu a:hover {
-  background-color: #F5E08E;
+  background-color: #f5e08e;
   color: white;
-
-
+}
 
 /* //-- Mobile first--// */
 
@@ -103,3 +102,4 @@ img {
   .menu a:hover {
     background-color: #f5e08e;
   }
+}

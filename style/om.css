@@ -1,27 +1,6 @@
 body {
   background-color: #e7f1fc;
 }
-#navigation,
-#footer {
-  font-family: Courier New;
-  font-size: 1.02em;
-  border: 1px solid black;
-  padding: 1vw;
-  text-align: center;
-}
-.nav_right {
-  display: grid;
-  margin-top: 2vw;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  text-decoration-line: underline;
-}
 
 h1 {
   font-size: 2.5em;
@@ -54,28 +33,4 @@ video {
   inset: 0;
   width: 100%;
   height: 100%;
-}
-
-@media (min-width: 960px) {
-  /*Header og footer*/
-  #navigation,
-  #footer {
-    display: flex;
-    justify-content: space-between;
-  }
-  .section_wrapper {
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-  }
-
-  #footer {
-    position: relative;
-    bottom: 0;
-  }
-
-  .nav_right {
-    display: flex;
-    gap: 3vw;
-    margin-top: 0;
-  }
 }
