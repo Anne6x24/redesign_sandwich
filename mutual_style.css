@@ -2,13 +2,31 @@
   display: grid;
   grid-template-columns: 1fr minmax(0, 1200px) 1fr;
 } */
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0;
+}
+
 h1 {
-  font-size: 2.5em;
-  font-family: Shadows Into Light Two;
+  font-size: 3rem;
+  font-family: Amatic SC;
+  text-align: center;
 }
 h3 {
   font-family: Nothing You Could Do;
   font-size: 30px;
+  text-align: center;
+}
+
+p {
+  font-family: Courier New;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -18,10 +36,16 @@ h3 {
 }
 .clausens h1 {
   font-family: Nothing You Could Do;
-  transform: rotate(-30deg);
+  transform: rotate(-20deg);
   position: relative;
-  top: 2vw;
-  left: -7vw;
+  top: 5vw;
+  left: -10vw;
+}
+.sj h1 {
+  font-family: Amatic SC;
+  letter-spacing: 0.1rem;
+  position: relative;
+  top: -2vw;
 }
 
 /*Header og footer*/
