@@ -5,7 +5,7 @@ body {
 .section_wrapper {
   background-color: #efbe78;
   margin: 80px auto;
-  max-width: 1000px;
+  max-width: 700px;
 }
 
 .kasse_1 {
@@ -21,16 +21,16 @@ body {
   max-width: 700px;
   border-radius: 25px;
 }
+
 /* //--logo img--// */
 
 img {
   position: relative;
   height: 30vw;
   width: 40vw;
-  top: -4vw;
+  top: 5vw;
   left: 16vw;
 }
-<<<<<<< HEAD
 
 /* //--Drikkevare menu--// */
 
