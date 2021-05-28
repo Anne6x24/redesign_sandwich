@@ -2,20 +2,6 @@ body {
   background-color: #e7f1fc;
 }
 
-h1 {
-  font-size: 2.5em;
-}
-
-h3 {
-  font-family: Courier New;
-  font-size: 1.5em;
-}
-
-p {
-  font-family: Courier New;
-  font-size: 1.02em;
-}
-
 .section_wrapper {
   display: grid;
   justify-content: center;
@@ -33,4 +19,12 @@ video {
   inset: 0;
   width: 100%;
   height: 100%;
+}
+
+.section_wrapper {
+  display: grid;
+}
+.titel_logo {
+  justify-content: center;
+  margin: 2vw;
 }
