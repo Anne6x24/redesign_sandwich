@@ -2,6 +2,27 @@
   display: grid;
   grid-template-columns: 1fr minmax(0, 1200px) 1fr;
 } */
+h1 {
+  font-size: 2.5em;
+  font-family: Shadows Into Light Two;
+}
+h3 {
+  font-family: Nothing You Could Do;
+  font-size: 30px;
+  text-align: center;
+}
+
+.titel_logo {
+  position: relative;
+  display: grid;
+}
+.clausens h1 {
+  font-family: Nothing You Could Do;
+  transform: rotate(-30deg);
+  position: relative;
+  top: 2vw;
+  left: -7vw;
+}
 
 /*Header og footer*/
 #navigation,
@@ -17,12 +38,14 @@
   margin-top: 2vw;
 }
 
-a {
+#navigation a,
+#footer a {
   text-decoration: none;
   color: black;
 }
 
-a:hover {
+#navigation a:hover,
+#footer a:hover {
   text-decoration-line: underline;
 }
 
