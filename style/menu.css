@@ -5,6 +5,7 @@ body {
 h1 {
   font-size: 2.5em;
 }
+
 .section_wrapper {
   display: grid;
   justify-content: center;
