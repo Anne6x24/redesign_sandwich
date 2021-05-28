@@ -14,6 +14,7 @@
 video {
   display: grid;
   max-width: 100%;
+  justify-content: center;
 }
 /* //--Menu navigaion--// */
 
