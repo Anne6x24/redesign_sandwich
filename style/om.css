@@ -10,8 +10,8 @@ body {
 
 .video_wrapper {
   position: relative;
-  width: 100%;
-  height: 0;
+  width: 500;
+  height: 400;
   padding-top: calc(100% / (16 / 9));
 }
 video {
