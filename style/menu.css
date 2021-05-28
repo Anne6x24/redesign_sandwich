@@ -2,13 +2,24 @@ body {
   background-color: #f7f1d9;
 }
 
+#section_one {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 4vw;
+  /* justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center; */
+}
+
 .section_wrapper {
   display: grid;
   justify-content: center;
   background-color: #f5e08e;
   box-shadow: 0px 0px 10px #ad9f66;
-  margin: 5vw 10vw 5vw 10vw;
-  padding: 4vw;
+  /* margin: 5vw 10vw 5vw 10vw; */
+  /* padding: 4vw; */
+  width: 100%;
 }
 
 #section_one a {
@@ -20,6 +31,7 @@ body {
   color: black;
   background-color: white;
   box-shadow: 0px 0px 10px #ad9f66;
+  grid-column: 2/3;
 }
 
 #section_one a:hover {
@@ -27,26 +39,24 @@ body {
   color: white;
 }
 
+.billede1 img,
+.billede2 img {
+  display: none;
+}
+
 @media (min-width: 960px) {
-  /*Header og footer*/
-  #navigation,
-  #footer {
-    display: flex;
-    justify-content: space-between;
-  }
   .section_wrapper {
     padding-top: 2vw;
     padding-bottom: 2vw;
   }
-
-  #footer {
-    position: relative;
-    bottom: 0;
+  .billede1 img,
+  .billede2 img {
+    display: ruby;
+    width: 15vw;
   }
-
-  .nav_right {
-    display: flex;
-    gap: 3vw;
-    margin-top: 0;
+  .billede1,
+  .billede2 {
+    text-align: center;
+    margin-top: 4vw;
   }
 }
