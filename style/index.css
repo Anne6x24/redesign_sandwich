@@ -1,5 +1,4 @@
-/* //--video--// */
-
+/* //-- mobile first --// */
 #section_one {
   display: grid;
   place-items: center;
@@ -18,23 +17,23 @@ video {
   place-items: center;
   background: #e7f1fc83;
   box-shadow: 0px 0px 10px black;
-  margin: 30%;
   width: 40%;
+  height: 80%;
 }
 
 .box a {
   text-decoration: none;
   font-family: Amatic SC;
-  font-size: 50px;
+  font-size: 20px;
   color: black;
 }
 
 .box h2 {
-  width: 90%;
+  width: 70%;
   background-color: #b2c5da;
   box-shadow: 0px 0px 10px #243241;
   text-align: center;
-  margin: 5%;
+  margin: 0%;
 }
 
 .box h2:hover,
@@ -43,15 +42,38 @@ a:hover {
   color: white;
 }
 
-/* //-- Mobile first--// */
+.logo {
+  padding: 0%;
+  height: 80%;
+  width: 40%;
+}
 
-@media screen and (min-width: 600px) {
-  /* //-- Menu navigation--// */
-
+@media screen and (min-width: 960px) {
   .box {
+    display: grid;
+    place-items: center;
     background: #e7f1fc83;
     box-shadow: 0px 0px 10px black;
-    padding: 20px;
-    margin: 50px;
+    width: 40%;
+  }
+
+  .box a {
+    text-decoration: none;
+    font-family: Amatic SC;
+    font-size: 50px;
+    color: black;
+  }
+
+  .box h2 {
+    width: 90%;
+    background-color: #b2c5da;
+    box-shadow: 0px 0px 10px #243241;
+    text-align: center;
+    margin: 5%;
+  }
+  .box h2:hover,
+  a:hover {
+    background-color: #f5e08e;
+    color: white;
   }
 }
