@@ -1,3 +1,7 @@
+body {
+  background-color: #e7f1fc;
+}
+
 .section_wrapper {
   display: grid;
 }
