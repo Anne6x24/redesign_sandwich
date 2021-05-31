@@ -4,9 +4,6 @@ body {
 
 /* //--mobile-version--// */
 
-.logo {
-  margin: 1rem;
-}
 
 .section_wrapper {
   display: grid;
@@ -48,7 +45,7 @@ body {
   border-width: 0.001rem;
 }
 
-.text_1, .text_2, .text_3, .text_4, .text_5 {
+.text_1, .text_2, .text_3, .text_4, .text_5, .logo, .overskrift {
   margin: 1rem;
 }
 
