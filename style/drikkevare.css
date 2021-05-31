@@ -8,6 +8,8 @@ body {
   background-color: #efbe78;
   margin: 80px auto;
   max-width: 1000px;
+  border-style: solid;
+  border-width: 0.001rem;
 }
 
 .kasse_1 {
