@@ -10,16 +10,16 @@ body {
   margin: 2vw;
 }
 
-.soc_symbol img {
+.soc_symbol {
   display: inline-flex;
   justify-content: center;
+}
+.soc_symbol img {
   height: 7rem;
   width: 7rem;
 }
 
 .soc_symbol_f img {
-  display: inline-flex;
-  justify-content: center;
   height: 8rem;
   width: 7rem;
 }
