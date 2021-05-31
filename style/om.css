@@ -46,6 +46,8 @@ video {
   .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
   }
   .video_wrapper {
     grid-column: 2/3;

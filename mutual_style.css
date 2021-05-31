@@ -1,13 +1,10 @@
-/* html {
-  display: grid;
-  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
-} */
+/* Regler for alle billeder generelt */
 img {
   width: 100%;
   height: auto;
   display: block;
 }
-
+/* Placering af footer og header rigtigt på alle sider */
 html {
   height: 100%;
 }
@@ -17,6 +14,9 @@ body {
   grid-template-rows: auto 1fr auto;
   margin: 0;
 }
+/*  */
+
+/* Style af tekst/fonts på siderne */
 
 h1 {
   font-size: 3em;
@@ -47,22 +47,11 @@ p {
   text-align: center;
 }
 
+/* Placering af Logo rigtigt på "om os" og "kontakt" */
+
 .titel_logo {
   position: relative;
   display: grid;
-}
-.clausens h1 {
-  font-family: Nothing You Could Do;
-  transform: rotate(-20deg);
-  position: relative;
-  top: 5vw;
-  left: -10vw;
-}
-.sj h1 {
-  font-family: Amatic SC;
-  letter-spacing: 0.1rem;
-  position: relative;
-  top: -2vw;
 }
 
 /*Header og footer*/
@@ -77,6 +66,10 @@ p {
 .nav_right {
   display: grid;
   margin-top: 2vw;
+}
+
+.nav_left a {
+  font-weight: bold;
 }
 
 #navigation a,
@@ -98,19 +91,13 @@ p {
     display: flex;
     justify-content: space-between;
   }
-  .section_wrapper {
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-  }
-
-  #footer {
-    position: relative;
-    bottom: 0;
-  }
 
   .nav_right {
     display: flex;
     gap: 3vw;
     margin-top: 0;
+  }
+  .nav_left a {
+    font-weight: normal;
   }
 }
