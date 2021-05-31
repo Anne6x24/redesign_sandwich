@@ -44,55 +44,28 @@ body {
   border-width: 0.001rem;
 }
 
-.text_1 {
+.text_1, .text_2, .text_3, .text_4, .text_5 {
   margin: 1rem;
 }
-
-/* //--Drikkevare menu--// */
-
-
 
 /* //--fuldskærm--// */
 
 @media (min-width: 1080px) {
 
     .section_wrapper {
-        display: grid;
-        place-items: center;
-        background-color: #efbe78;
         margin: 80px auto;
-        max-width: 1000px;
-        border-style: solid;
-        border-width: 0.001rem;
       }
       
       .kasse_1 {
-        background-color: #ffffff;
         margin: 65px auto;
-        max-width: 700px;
-        border-radius: 25px;
-        padding: 1.5rem;
-        border-style: solid;
-        border-width: 0.001rem;
       }
       
       .kasse_2 {
-        background-color:#ffffff;
         margin: 65px auto;
-        max-width: 700px;
-        border-radius: 25px;
-        border-style: solid;
-        border-width: 0.001rem;
       }
       
       .kasse_3 {
-        background-color:#ffffff;
         margin: 65px auto;
-        max-width: 700px;
-        border-radius: 25px;
-        padding: 1.5rem;
-        border-style: solid;
-        border-width: 0.001rem;
       }
 
 }
