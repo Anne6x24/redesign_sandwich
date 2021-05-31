@@ -11,7 +11,11 @@ body {
 }
 
 .soc_symbol {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+}
+.soc_symbol_f {
+  display: flex;
   justify-content: center;
 }
 .soc_symbol img {
