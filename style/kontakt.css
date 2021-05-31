@@ -9,3 +9,9 @@ body {
   justify-content: center;
   margin: 2vw;
 }
+
+.soc_symbol img {
+  display: block;
+  height: 2rem;
+  width: 1rem;
+}
