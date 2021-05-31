@@ -12,7 +12,7 @@ body {
 
 .soc_symbol img {
   display: inline-flex;
-  top: 
+  justify-content: center;
   height: 7rem;
   width: 7rem;
 }
