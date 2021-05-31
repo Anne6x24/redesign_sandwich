@@ -20,8 +20,6 @@ body {
   display: grid;
   justify-content: center;
   text-decoration: none;
-  font-family: Amatic SC;
-  font-size: 2em;
   color: black;
   background-color: white;
   box-shadow: 0px 0px 10px #ad9f66;
@@ -31,6 +29,10 @@ body {
 #section_one a:hover {
   background-color: black;
   color: white;
+}
+
+.titel_logo {
+  margin-top: 3vw;
 }
 
 .billede1 img,

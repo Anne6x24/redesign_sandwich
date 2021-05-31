@@ -8,6 +8,8 @@ body {
   background-color: #efbe78;
   margin: 80px auto;
   max-width: 1000px;
+  border-style: solid;
+  border-width: 0.001rem;
 }
 
 .kasse_1 {
@@ -17,34 +19,24 @@ body {
   border-radius: 25px;
   padding: 1.5rem;
   border-style: solid;
+  border-width: 0.001rem;
 }
 
 .kasse_2 {
-  background-color:#ffffff;
+  background-color: #ffffff;
   margin: 65px auto;
   max-width: 700px;
   border-radius: 25px;
-  
+  border-style: solid;
+  border-width: 0.001rem;
 }
 
 .kasse_3 {
-  background-color:#ffffff;
+  background-color: #ffffff;
   margin: 65px auto;
   max-width: 700px;
   border-radius: 25px;
   padding: 1.5rem;
-}
-
-/* //--Drikkevare menu--// */
-
-h1 {
-  font-family: Amatic SC;
-  font-size: 50px;
-  text-align: center;
-}
-
-p {
-  font-family: Courier New;
-  font-size: 15px;
-  text-align: center;
+  border-style: solid;
+  border-width: 0.001rem;
 }
