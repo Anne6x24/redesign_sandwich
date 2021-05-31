@@ -7,13 +7,13 @@ body {
   justify-content: center;
   text-align: center;
 }
-
 .video_wrapper {
   position: relative;
-  width: 500%
+  width: 500%;
   height: auto;
   /* padding-top: calc(100% / (16 / 9)); */
 }
+
 video {
   /* position: absolute; */
   inset: 0;
