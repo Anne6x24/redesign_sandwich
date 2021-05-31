@@ -9,3 +9,21 @@ body {
   justify-content: center;
   margin: 2vw;
 }
+
+.soc_symbol {
+  display: flex;
+  justify-content: center;
+}
+.soc_symbol_f {
+  display: flex;
+  justify-content: center;
+}
+.soc_symbol img {
+  height: 7rem;
+  width: 7rem;
+}
+
+.soc_symbol_f img {
+  height: 8rem;
+  width: 7rem;
+}
