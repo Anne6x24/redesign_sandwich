@@ -15,7 +15,7 @@ video {
 .box {
   display: grid;
   place-items: center;
-  background: #e7f1fc83;
+  background: #efbd787c;
   box-shadow: 0px 0px 10px black;
   width: 40%;
   height: 80%;
@@ -52,7 +52,7 @@ a:hover {
   .box {
     display: grid;
     place-items: center;
-    background: #e7f1fc83;
+    background: #efbd787c;
     box-shadow: 0px 0px 10px black;
     width: 40%;
   }
