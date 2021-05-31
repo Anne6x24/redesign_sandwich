@@ -1,18 +1,30 @@
-.topnav {
-    border: 1px solid black;
-    overflow: hidden;
+body {
+  background-color: #e7f1fc;
 }
 
-.topnav a {
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: Courier New;
-    color:black;
+.section_wrapper {
+  display: grid;
+  justify-content: center;
+  text-align: center;
 }
 
-.topnav_right {
-    float: right;
+.video_wrapper {
+  position: relative;
+  width: 500%
+  height: auto;
+  /* padding-top: calc(100% / (16 / 9)); */
+}
+video {
+  /* position: absolute; */
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section_wrapper {
+  display: grid;
+}
+.titel_logo {
+  justify-content: center;
+  margin: 2vw;
 }

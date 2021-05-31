@@ -2,22 +2,18 @@ body {
   background-color: #f7f1d9;
 }
 
-.section_wrapper {
-  position: absolute;
+#section_one {
   display: grid;
-  justify-content: center;
-  top: 7vw;
-  left: 22vw;
-  /* border: 2px solid black; */
-  width: 50vw;
-  height: 30vw;
-  padding: 3vw;
-  background-color: #f5e08e;
-  box-shadow: 0px 0px 10px #ad9f66;
+  grid-template-columns: 1fr 8fr 1fr;
+  margin-top: 4vw;
 }
 
-h1 {
-  font-size: 2.5em;
+.section_wrapper {
+  display: grid;
+  justify-content: center;
+  background-color: #f5e08e;
+  box-shadow: 0px 0px 10px #ad9f66;
+  width: 100%;
 }
 
 #section_one a {
@@ -29,9 +25,35 @@ h1 {
   color: black;
   background-color: white;
   box-shadow: 0px 0px 10px #ad9f66;
+  grid-column: 2/3;
 }
 
 #section_one a:hover {
   background-color: black;
   color: white;
+}
+
+.billede1 img,
+.billede2 img {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  #section_one {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .section_wrapper {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+  .billede1 img,
+  .billede2 img {
+    display: ruby;
+    width: 15vw;
+  }
+  .billede1,
+  .billede2 {
+    text-align: center;
+    margin-top: 4vw;
+  }
 }

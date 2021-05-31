@@ -1,49 +1,103 @@
-/* //--top navigaion--// */
-.topnav {
-  border: 1px solid black;
-  overflow: hidden;
+/* html {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+} */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.topnav a {
-  float: left;
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: Amatic SC;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+}
+h3 {
+  font-family: Nothing You Could Do;
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
   font-family: Courier New;
-  color: black;
+  font-size: 1rem;
+  text-align: center;
 }
 
-.topnav_right {
-  float: right;
-}
-
-/* //--footer navigaion--// */
-
-.bottomnav {
-  border: 1px solid black;
-  overflow: hidden;
+.titel_logo {
   position: relative;
+  display: grid;
+}
+.clausens h1 {
+  font-family: Nothing You Could Do;
+  transform: rotate(-20deg);
+  position: relative;
+  top: 5vw;
+  left: -10vw;
+}
+.sj h1 {
+  font-family: Amatic SC;
+  letter-spacing: 0.1rem;
+  position: relative;
+  top: -2vw;
 }
 
-.bottomnav p {
-  float: left;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+/*Header og footer*/
+#navigation,
+#footer {
   font-family: Courier New;
+  font-size: 1.02em;
+  border: 1px solid black;
+  padding: 1vw;
+  text-align: center;
+}
+.nav_right {
+  display: grid;
+  margin-top: 2vw;
+}
+
+#navigation a,
+#footer a {
+  text-decoration: none;
   color: black;
 }
 
-.bottomnav_center p {
-  float: none;
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#navigation a:hover,
+#footer a:hover {
+  text-decoration-line: underline;
 }
 
-.bottomnav_right {
-  float: right;
+@media (min-width: 960px) {
+  /*Header og footer*/
+  #navigation,
+  #footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section_wrapper {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+
+  #footer {
+    position: relative;
+    bottom: 0;
+  }
+
+  .nav_right {
+    display: flex;
+    gap: 3vw;
+    margin-top: 0;
+  }
 }

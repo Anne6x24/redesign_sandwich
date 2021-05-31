@@ -3,6 +3,8 @@ body {
 }
 
 .section_wrapper {
+  display: grid;
+  place-items: center;
   background-color: #efbe78;
   margin: 80px auto;
   max-width: 1000px;
@@ -29,27 +31,11 @@ body {
   border-radius: 25px;
 }
 
-/* //--logo img--// */
-
-img {
-  position: relative;
-  height: 30vw;
-  width: 40vw;
-  top: -4vw;
-  left: 16vw;
-}
-
 /* //--Drikkevare menu--// */
 
 h1 {
   font-family: Amatic SC;
   font-size: 50px;
-  text-align: center;
-}
-
-h3 {
-  font-family: Shadows Into Light Two;
-  font-size: 30px;
   text-align: center;
 }
 
