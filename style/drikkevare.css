@@ -2,11 +2,13 @@ body {
   background-color: #fcedd9;
 }
 
+/* //--mobile-version--// */
+
 .section_wrapper {
   display: grid;
   place-items: center;
   background-color: #efbe78;
-  margin: 80px auto;
+  margin: 1rem;
   max-width: 1000px;
   border-style: solid;
   border-width: 0.001rem;
@@ -14,7 +16,7 @@ body {
 
 .kasse_1 {
   background-color: #ffffff;
-  margin: 65px auto;
+  margin: 1rem;
   max-width: 700px;
   border-radius: 25px;
   padding: 1.5rem;
@@ -23,6 +25,8 @@ body {
 }
 
 .kasse_2 {
+  background-color:#ffffff;
+  margin: 1rem;
   background-color: #ffffff;
   margin: 65px auto;
   max-width: 700px;
@@ -32,11 +36,70 @@ body {
 }
 
 .kasse_3 {
-  background-color: #ffffff;
-  margin: 65px auto;
+  background-color:#ffffff;
+  margin: 1rem;
   max-width: 700px;
   border-radius: 25px;
   padding: 1.5rem;
   border-style: solid;
   border-width: 0.001rem;
+}
+
+/* //--Drikkevare menu--// */
+
+h1 {
+  font-family: Amatic SC;
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-family: Courier New;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* //--fuldskærm--// */
+
+@media (min-width: 1080px) {
+
+    .section_wrapper {
+        display: grid;
+        place-items: center;
+        background-color: #efbe78;
+        margin: 80px auto;
+        max-width: 1000px;
+        border-style: solid;
+        border-width: 0.001rem;
+      }
+      
+      .kasse_1 {
+        background-color: #ffffff;
+        margin: 65px auto;
+        max-width: 700px;
+        border-radius: 25px;
+        padding: 1.5rem;
+        border-style: solid;
+        border-width: 0.001rem;
+      }
+      
+      .kasse_2 {
+        background-color:#ffffff;
+        margin: 65px auto;
+        max-width: 700px;
+        border-radius: 25px;
+        border-style: solid;
+        border-width: 0.001rem;
+      }
+      
+      .kasse_3 {
+        background-color:#ffffff;
+        margin: 65px auto;
+        max-width: 700px;
+        border-radius: 25px;
+        padding: 1.5rem;
+        border-style: solid;
+        border-width: 0.001rem;
+      }
+
 }
