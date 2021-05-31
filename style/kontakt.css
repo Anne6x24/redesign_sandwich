@@ -29,5 +29,6 @@ body {
 }
 
 .image_kontakt {
+  max-width: 30vw;
   display: grid;
 }
