@@ -4,6 +4,10 @@ body {
 
 /* //--mobile-version--// */
 
+.logo {
+  margin: 1rem;
+}
+
 .section_wrapper {
   display: grid;
   place-items: center;
