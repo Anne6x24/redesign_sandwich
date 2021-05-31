@@ -23,7 +23,6 @@ body {
   margin: 65px auto;
   max-width: 700px;
   border-radius: 25px;
-  
 }
 
 .kasse_3 {
@@ -32,18 +31,4 @@ body {
   max-width: 700px;
   border-radius: 25px;
   padding: 1.5rem;
-}
-
-/* //--Drikkevare menu--// */
-
-h1 {
-  font-family: Amatic SC;
-  font-size: 50px;
-  text-align: center;
-}
-
-p {
-  font-family: Courier New;
-  font-size: 15px;
-  text-align: center;
 }
