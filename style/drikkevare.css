@@ -17,6 +17,7 @@ body {
   border-radius: 25px;
   padding: 1.5rem;
   border-style: solid;
+  border-width: 0.001rem;
 }
 
 .kasse_2 {
@@ -24,7 +25,8 @@ body {
   margin: 65px auto;
   max-width: 700px;
   border-radius: 25px;
-  
+  border-style: solid;
+  border-width: 0.001rem;
 }
 
 .kasse_3 {
@@ -33,6 +35,8 @@ body {
   max-width: 700px;
   border-radius: 25px;
   padding: 1.5rem;
+  border-style: solid;
+  border-width: 0.001rem;
 }
 
 /* //--Drikkevare menu--// */
