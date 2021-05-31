@@ -11,7 +11,8 @@ body {
 }
 
 .soc_symbol img {
-  display: flex;
+  display: grid;
+  top: 
   height: 7rem;
   width: 7rem;
 }
