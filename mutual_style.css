@@ -19,13 +19,25 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3em;
   font-family: Amatic SC;
   text-align: center;
 }
+
+h2 {
+  font-family: Amatic SC;
+  font-size: 2.5em;
+}
+
 h3 {
   font-family: Nothing You Could Do;
-  font-size: 30px;
+  font-size: 2em;
+  text-align: center;
+}
+
+h4 {
+  font-family: Nothing You Could Do;
+  font-size: 1.5em;
   text-align: center;
 }
 
