@@ -16,11 +16,11 @@ body {
   max-width: 700px;
   border-radius: 25px;
   padding: 1.5rem;
-  border-style:solid black 0.5rem;
+  border-style: solid;
 }
 
 .kasse_2 {
-  background-color: #e7f1fc;
+  background-color:#ffffff;
   margin: 65px auto;
   max-width: 700px;
   border-radius: 25px;
@@ -28,7 +28,7 @@ body {
 }
 
 .kasse_3 {
-  background-color: #e7f1fc;
+  background-color:#ffffff;
   margin: 65px auto;
   max-width: 700px;
   border-radius: 25px;
