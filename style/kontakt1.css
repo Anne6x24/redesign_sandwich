@@ -1,0 +1,18 @@
+#section_one {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+#section_one a {
+  color: black;
+}
+
+#section_one a:hover {
+  color: #c85955;
+}
+
+#section_two {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
