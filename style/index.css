@@ -27,6 +27,8 @@ video {
 }
 
 .box h2 {
+  display: grid;
+  justify-content: center;
   width: 80%;
   background-color: #b2c5da;
   box-shadow: 0px 0px 10px #243241;
