@@ -42,10 +42,20 @@ body {
   padding: 2.5rem;
   border-style: solid;
   border-width: 0.001rem;
-  left: -16vw;
-position: relative;
-  border-width: 0.001rem;
   box-shadow: 0px 0px 10px #ad9f66;
+  
+}
+
+.juice_drikke img {
+  position: relative;
+  left: 32vw;
+  width: 6rem;
+}
+
+.kaffe_drikke img {
+  position: relative;
+  left: -1vw;
+  width: 10rem;
 }
 
 .text_1,
@@ -75,5 +85,17 @@ position: relative;
 
   .kasse_3 {
     margin: 65px auto;
+  }
+
+  .juice_drikke img {
+    position: relative;
+    left: 20vw;
+    width: 6rem;
+  }
+  
+  .kaffe_drikke img {
+    position: relative;
+    left: -1vw;
+    width: 10rem;
   }
 }
