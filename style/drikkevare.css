@@ -40,9 +40,11 @@ body {
   margin: 1rem;
   max-width: 700px;
   border-radius: 25px;
-  padding: 1.5rem;
+  padding: 2.5rem;
   border-style: solid;
   border-width: 0.001rem;
+  left: -16vw;
+position: relative;
 }
 
 .text_1, .text_2, .text_3, .text_4, .text_5, .logo, .overskrift {
