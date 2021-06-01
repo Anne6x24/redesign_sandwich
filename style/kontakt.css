@@ -5,6 +5,18 @@ body {
 .section_wrapper {
   display: grid;
 }
+
+#tekst {
+  text-align: center;
+}
+
+#section_one a {
+  color: black;
+}
+
+#section_one a:hover {
+  color: #c85955;
+}
 .titel_logo {
   justify-content: center;
   margin: 2vw;
