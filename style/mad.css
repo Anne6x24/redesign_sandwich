@@ -42,6 +42,10 @@ body {
   margin: 1rem;
 }
 
+.logo {
+  margin-top: 1rem;
+}
+
 /* //--fuldskærm--// */
 
 @media (min-width: 1080px) {
