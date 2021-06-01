@@ -10,7 +10,6 @@
 video {
   width: 100%;
 }
-/* //--Menu navigaion--// */
 
 .box {
   display: grid;
@@ -69,8 +68,7 @@ video {
     font-size: 3.5rem;
     margin: 5%;
   }
-  .box h2:hover,
-  a:hover {
+  .box h2:hover {
     background-color: #f5e08e;
     color: white;
   }
