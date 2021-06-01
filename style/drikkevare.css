@@ -4,15 +4,14 @@ body {
 
 /* //--mobile-version--// */
 
-
 .section_wrapper {
   display: grid;
   place-items: center;
   background-color: #efbe78;
   margin: 1rem;
   max-width: 1000px;
-  border-style: solid;
   border-width: 0.001rem;
+  box-shadow: 0px 0px 10px #ad9f66;
 }
 
 .kasse_1 {
@@ -21,52 +20,56 @@ body {
   max-width: 700px;
   border-radius: 25px;
   padding: 1.5rem;
-  border-style: solid;
   border-width: 0.001rem;
+  box-shadow: 0px 0px 10px #ad9f66;
 }
 
 .kasse_2 {
-  background-color:#ffffff;
+  background-color: #ffffff;
   margin: 1rem;
   background-color: #ffffff;
   max-width: 700px;
   border-radius: 25px;
-  border-style: solid;
   border-width: 0.001rem;
+  box-shadow: 0px 0px 10px #ad9f66;
 }
 
 .kasse_3 {
-  background-color:#ffffff;
+  background-color: #ffffff;
   margin: 1rem;
   max-width: 700px;
   border-radius: 25px;
   padding: 1.5rem;
-  border-style: solid;
   border-width: 0.001rem;
+  box-shadow: 0px 0px 10px #ad9f66;
 }
 
-.text_1, .text_2, .text_3, .text_4, .text_5, .logo, .overskrift {
+.text_1,
+.text_2,
+.text_3,
+.text_4,
+.text_5,
+.logo,
+.overskrift {
   margin: 1rem;
 }
 
 /* //--fuldskærm--// */
 
 @media (min-width: 1080px) {
+  .section_wrapper {
+    margin: 80px auto;
+  }
 
-    .section_wrapper {
-        margin: 80px auto;
-      }
-      
-      .kasse_1 {
-        margin: 65px auto;
-      }
-      
-      .kasse_2 {
-        margin: 65px auto;
-      }
-      
-      .kasse_3 {
-        margin: 65px auto;
-      }
+  .kasse_1 {
+    margin: 65px auto;
+  }
 
+  .kasse_2 {
+    margin: 65px auto;
+  }
+
+  .kasse_3 {
+    margin: 65px auto;
+  }
 }

@@ -10,8 +10,8 @@ body {
   background-color: #efbe78;
   margin: 1rem;
   max-width: 1000px;
-  border-style: solid;
   border-width: 0.001rem;
+  box-shadow: 0px 0px 10px #ad9f66;
 }
 
 .kasse_1 {
@@ -20,8 +20,8 @@ body {
   max-width: 700px;
   border-radius: 25px;
   padding: 1.5rem;
-  border-style: solid;
   border-width: 0.001rem;
+  box-shadow: 0px 0px 10px #ad9f66;
 }
 
 .kasse_2 {
@@ -30,8 +30,8 @@ body {
   background-color: #e7f1fc;
   max-width: 700px;
   border-radius: 25px;
-  border-style: solid;
   border-width: 0.001rem;
+  box-shadow: 0px 0px 10px #ad9f66;
 }
 
 .text_1,
