@@ -31,7 +31,11 @@ body {
 .image_kontakt {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 37px;
+  margin-right: 30px;
+  margin-top: 75px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .image_1 img {
