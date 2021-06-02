@@ -6,7 +6,11 @@ body {
   display: grid;
 }
 
-#tekst {
+.tekst_box {
+  text-align: center;
+}
+
+.tekst_box p {
   text-align: center;
 }
 
