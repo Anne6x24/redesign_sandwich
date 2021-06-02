@@ -6,10 +6,10 @@ body {
   display: grid;
 }
 
-.tekst {
+.tekst_box {
   grid-column: 2/3;
 }
-.tekst p {
+.tekst_box p {
   text-align: justify;
 }
 
