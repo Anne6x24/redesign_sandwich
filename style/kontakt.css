@@ -7,9 +7,6 @@ body {
 }
 
 .tekst_box {
-  grid-column: 2/3;
-}
-.tekst_box h {
   text-align: center;
 }
 
