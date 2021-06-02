@@ -9,8 +9,12 @@ body {
 .tekst_box {
   grid-column: 2/3;
 }
+.tekst_box h {
+  text-align: center;
+}
+
 .tekst_box p {
-  text-align: justify;
+  text-align: center;
 }
 
 #section_one a {
