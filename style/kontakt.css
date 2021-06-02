@@ -6,7 +6,7 @@ body {
   display: grid;
 }
 
-#tekst {
+.tekst {
   text-align: center;
 }
 
