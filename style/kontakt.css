@@ -6,7 +6,21 @@ body {
   display: grid;
 }
 
-#tekst {
+.tekst_wrapper {
+  display: grid;
+}
+
+.tekst_box {
+  text-align: left;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.tekst_box h2 {
+  text-align: center;
+}
+
+.tekst_box p {
   text-align: center;
 }
 
