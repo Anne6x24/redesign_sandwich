@@ -38,7 +38,7 @@ body {
 
 .billede1 img,
 .billede2 img {
-  display: none;
+  visibility: hidden;
 }
 
 @media (min-width: 960px) {
@@ -51,12 +51,12 @@ body {
   }
   .billede1 img,
   .billede2 img {
-    display: ruby;
+    visibility: visible;
     width: 15vw;
   }
   .billede1,
   .billede2 {
     text-align: center;
-    margin-top: 4vw;
+    margin: 4vw;
   }
 }
