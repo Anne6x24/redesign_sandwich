@@ -2,14 +2,21 @@
 #section_one {
   display: grid;
   place-items: center;
+  height: 100%;
+  /* width: 100%; */
 }
 
 #section_one > * {
   grid-area: 1 / 1;
+  /* height: 100vh; */
 }
 video {
+  /* width: 100%;
+  height: auto; */
+  /* object-fit: cover; */
   width: 100%;
-  height: auto;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .box {
@@ -17,9 +24,10 @@ video {
   place-items: center;
   background: #efbd787c;
   box-shadow: 0px 0px 10px black;
-  width: 40%;
-  height: 80%;
+  width: 50vw;
+  height: 50vw;
   z-index: 10;
+  padding: 2rem;
 }
 
 .box a {
@@ -28,9 +36,8 @@ video {
 }
 
 .box h2 {
-  display: grid;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   background-color: #f5e08e;
   box-shadow: 0px 0px 10px #243241;
   text-align: center;
@@ -56,8 +63,8 @@ a:hover {
     place-items: center;
     background: #efbd787c;
     box-shadow: 0px 0px 10px black;
-    width: 40%;
-    height: auto;
+    width: 50vw;
+    height: 50vw;
   }
 
   .box a {
@@ -66,11 +73,11 @@ a:hover {
   }
 
   .box h2 {
-    width: 90%;
+    width: 500px;
     background-color: #f5e08e;
     box-shadow: 0px 0px 10px #243241;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin: 5%;
   }
   .box h2:hover,
