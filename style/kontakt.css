@@ -6,6 +6,10 @@ body {
   display: grid;
 }
 
+.tekst_wrapper {
+  display: grid;
+}
+
 .tekst_box {
   text-align: center;
 }
