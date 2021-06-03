@@ -2,14 +2,21 @@
 #section_one {
   display: grid;
   place-items: center;
+  height: 100vh;
+  /* width: 100%; */
 }
 
 #section_one > * {
   grid-area: 1 / 1;
+  /* height: 100vh; */
 }
 video {
+  /* width: 100%;
+  height: auto; */
+  /* object-fit: cover; */
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 .box {
@@ -17,8 +24,8 @@ video {
   place-items: center;
   background: #efbd787c;
   box-shadow: 0px 0px 10px black;
-  width: 40%;
-  height: 80%;
+  width: 60%;
+  height: 50%;
   z-index: 10;
 }
 
@@ -28,13 +35,12 @@ video {
 }
 
 .box h2 {
-  display: grid;
   justify-content: center;
   width: 80%;
   background-color: #f5e08e;
   box-shadow: 0px 0px 10px #243241;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 8vw;
   margin: 0%;
 }
 
@@ -70,7 +76,7 @@ a:hover {
     background-color: #f5e08e;
     box-shadow: 0px 0px 10px #243241;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 5vw;
     margin: 5%;
   }
   .box h2:hover,
